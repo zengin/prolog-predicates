@@ -1,0 +1,12 @@
+countelm predicate counts the number of occurences of each element in a list.
+
+Example:
+
+?- countelm([a,b,d,s,a,d,s,a,d,d,d,a,s,d,s,a,a,d,b,s], O).
+O = [[a, 6], [b, 2], [d, 7], [s, 5]] 
+
+?- countelm([], O).
+O = [].
+
+family_relations.pl has simply definitions of family relations in the form of 
+prolog predicates.
